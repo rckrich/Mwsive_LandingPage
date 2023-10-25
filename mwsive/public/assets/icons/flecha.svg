@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53">
+  <g id="flecha" transform="translate(-9720 -669)">
+    <g id="Rectángulo_40" data-name="Rectángulo 40" transform="translate(9720 669)" fill="none" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="53" height="53" stroke="none"/>
+      <rect x="0.5" y="0.5" width="52" height="52" fill="none"/>
+    </g>
+    <path id="Trazado_10" data-name="Trazado 10" d="M164.145-.074l-4.7-4.7,21.8-21.8-21.8-21.8,4.7-4.7,26.5,26.5Z" transform="translate(9719.926 520.457) rotate(90)"/>
+  </g>
+</svg>
