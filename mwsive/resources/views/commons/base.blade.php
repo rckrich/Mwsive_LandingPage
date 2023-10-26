@@ -38,8 +38,8 @@
                 <li id="nav_faq" class="nav-item px-3 {{ request()->routeIs('landing.faq') ? 'active' : '' }}">
                     <a class="nav-link" href="{{route('landing.faq')}}">{{__('general.nav_faq')}}</a>
                 </li>
-                <li id="nav_tc" class="nav-item px-3">
-                    <a class="nav-link" href="">{{__('general.nav_tc')}}</a>
+                <li id="nav_tc" class="nav-item px-3 {{ request()->routeIs('landing.tc') ? 'active' : '' }}">
+                    <a class="nav-link" href="{{route('landing.tc')}}">{{__('general.nav_tc')}}</a>
                 </li>
             </ul>            
         </div>
@@ -54,16 +54,25 @@
                     <img class="my-3" src="{{asset('assets/img/Logo_Mwsive.svg')}}" width="264" height="45"/>
                     <h3 class="pb-3 pt-5 text-gray">{{__('general.social_media')}}</h3> 
                 </div>                 
-                <div class="col-12 align-self-center" style="text-align:left">                    
-                    <a href="https://www.youtube.com/channel/UCvpzWzkB_tI9UXYl-kLJrGw" class="px-3"><img class="icon-social my-3" src="{{asset('assets/icons/youtube.svg')}}" height="50" width="50"/></a>
-                    <a href="https://www.tiktok.com/@mwsive" class="px-3"><img class="icon-social my-3" src="{{asset('assets/icons/tiktok.svg')}}" height="50" width="50"/></a>
-                    <a href="https://www.instagram.com/mwsive/?hl=en" class="px-3"><img class="icon-social my-3" src="{{asset('assets/icons/instagram.svg')}}" height="50" width="50"/></a>
-                    <a href="" class="px-3"><img class="icon-social my-3" src="{{asset('assets/icons/facebook.svg')}}" height="50" width="50"/></a>
-                    <a href="" class="px-3"><img class="icon-social my-3" src="{{asset('assets/icons/discord.svg')}}" height="50" width="50"/></a>
-                    <a href="" class="px-3"><img class="icon-social my-3" src="{{asset('assets/icons/snapchat.svg')}}" height="50" width="50"/></a>
-                    <a href="https://twitter.com/mwsive" class="px-3"><img class="icon-social my-3" src="{{asset('assets/icons/twitter.svg')}}" height="50" width="50"/></a>
-                    <a href="" class="px-3"><img class="icon-social my-3" src="{{asset('assets/icons/linkedin.svg')}}" height="50" width="50"/></a>
-                    <a href="" class="px-3"><img class="icon-social my-3" src="{{asset('assets/icons/at.svg')}}" height="50" width="50"/></a>
+                <div id="social_media_links" class="col-lg-9 row col-12 align-self-center mx-auto" style="">                    
+                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://www.youtube.com/channel/UCvpzWzkB_tI9UXYl-kLJrGw">
+                        <img class="icon-social" src="{{asset('assets/icons/youtube.svg')}}" height="50" width="50"/></a>
+                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://www.tiktok.com/@mwsive">
+                        <img class="icon-social" src="{{asset('assets/icons/tiktok.svg')}}" height="50" width="50"/></a>
+                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://www.instagram.com/mwsive/?hl=en">
+                        <img class="icon-social" src="{{asset('assets/icons/instagram.svg')}}" height="50" width="50"/></a>
+                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="">
+                        <img class="icon-social" src="{{asset('assets/icons/facebook.svg')}}" height="50" width="50"/></a>
+                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="">
+                        <img class="icon-social" src="{{asset('assets/icons/discord.svg')}}" height="50" width="50"/></a>
+                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="">
+                        <img class="icon-social" src="{{asset('assets/icons/snapchat.svg')}}" height="50" width="50"/></a>
+                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://twitter.com/mwsive">
+                        <img class="icon-social" src="{{asset('assets/icons/twitter.svg')}}" height="50" width="50"/></a>
+                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="">
+                        <img class="icon-social" src="{{asset('assets/icons/linkedin.svg')}}" height="50" width="50"/></a>
+                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="">
+                        <img class="icon-social" src="{{asset('assets/icons/at.svg')}}" height="50" width="50"/></a>
 
                 </div>
             </div>

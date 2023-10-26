@@ -72,13 +72,25 @@ p{font: normal normal normal 30px/80px 'Nimbus Sans L'; line-height: 50px;}
 
 /*FOOTER*/
 footer{background-color: #272727; color: #fff;}
-
+@media (max-width: 1200px){
+    #social_media_links{width: 91.66666667%!important;}/*col-11*/
+}
+@media (min-width: 992px){
+    footer .col-lg-auto{width: calc(100%/9)!important}
+}
+@media (max-width: 991px){
+    #social_media_links{width: 100%!important;}/*col-12*/
+}
 /*ACCORDION*/
 .accordion-button,.accordion-item{background-color: transparent!important; color: #000!important;}
 .accordion-button,.accordion-item,.accordion-button:focus,.accordion-button:not(.collapsed),.accordion-collapse{border: none!important;box-shadow: none;}
-.accordion-button{padding: 10px 0;font: normal normal bold 30px/100px 'Nimbus Sans L';}
-.accordion-body{padding: 0 16px;font: normal normal normal 30px/41px 'Nimbus Sans L';}
+.accordion-button{padding: 5px 0 ;height: 60px; font: normal normal bold 30px/100px 'Nimbus Sans L';}
+.accordion-body{padding: 0 20px;font: normal normal normal 30px/41px 'Nimbus Sans L';}
 .accordion-button::after,.accordion-button:not(.collapsed)::after{background-image: url('../assets/icons/flecha.svg');}
+@media (max-width: 991px){
+    .accordion-button{height: 50px; font-size: 25px;}
+    .accordion-body{padding: 0 16px;font-size: 18px;}
+}
 
 /*-----------------------------------------------------------------------*/
 /*main banner*/
@@ -104,15 +116,17 @@ footer{background-color: #272727; color: #fff;}
 }
 /*activities*/
 #activities{min-height: 170vh; display: flex; align-items: center; background-color: #0A0A0A;}
-#activities .card{background: transparent linear-gradient(143deg, #201F2A 0%, #422735 100%) 0% 0% no-repeat padding-box;}
+#activities .card{background: transparent linear-gradient(143deg, #201F2A 0%, #422735 100%) 0% 0% no-repeat padding-box; min-height: 502px;}
 #activities .card-body{padding: 1.5rem;}
 #activities .card-title{font-family:'Exo Medium'; font-size: 30px; color: #FFFFFF;}
 #activities .card-text{font: normal normal normal 20px/28px 'Nimbus Sans L'; color: #FFFFFF;}
 #activities .card-img{
     max-width:75%;
+    width: 202px;
     display: flex; align-items: center;
 }
 @media (max-width: 991px){
+    #activities .card-body{padding: 3.5rem;}
     #activities .my-10rem{margin-top: 0rem;margin-bottom: 5rem;}
     #activities{min-height:min-content;}
 }

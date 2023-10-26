@@ -6,13 +6,13 @@
     <section id="faq">
     <div class="container p-5">
             <div class="row align-items-center pt-5">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="col-12">
                     <h1 class="">{{__('faq.title')}}</h1>
                 </div>
             </div>
             <div class="row">
                 
-                <div class="col-12">
+                <div class="col-12 pt-3">
                     
                     <div class="accordion" id="accordionFAQ">
                     <div class="accordion-item">

@@ -17,4 +17,5 @@ use App\Http\Controllers\LandingController;
 Route::get('/', [LandingController::class, 'index'])->name('landing.index');
 Route::get('/our_story', [LandingController::class, 'our_story'])->name('landing.our_story');
 Route::get('/faq', [LandingController::class, 'faq'])->name('landing.faq');
+Route::get('/links', [LandingController::class, 'tc'])->name('landing.tc');
 

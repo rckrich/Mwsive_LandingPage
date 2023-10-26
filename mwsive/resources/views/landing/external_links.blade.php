@@ -1,4 +1,4 @@
-<!-- resources/views/landing/our_story.blade.php -->
+<!-- resources/views/landing/external_inks.blade.php -->
 
 @extends('commons.base')
 
@@ -7,14 +7,15 @@
     <div class="container p-5">
             <div class="row align-items-center pt-5">
                 <div class="col-12">
-                    <h1 class="title-xl">{{__('our_story.title')}}</h1>
+                    <h1 class="title-xl">{{__('tc.title')}}</h1>
                 </div>
             </div>
             <div class="row">
                 
                 <div class="col-12">
-                    <p>{{__('our_story.sample')}}<br>{{__('our_story.sample')}}</p>
-                    <p>{{__('our_story.sample')}}</p>
+                    <p><a href="https://www.tiktok.com/@mwsive">{{__('tc.sample1')}}</a></p>
+                    <p><a href="https://www.instagram.com/mwsive/?hl=en">{{__('tc.sample2')}}</a></p>
+                    <p><a href="https://twitter.com/mwsive">{{__('tc.sample3')}}</a></p>
                 </div>
                
             </div>

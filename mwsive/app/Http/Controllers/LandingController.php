@@ -18,4 +18,8 @@ class LandingController extends Controller
     {
         return view('landing.faq');
     }
+    public function tc()
+    {
+        return view('landing.external_links');
+    }
 }
