@@ -11,14 +11,15 @@
                 </div>
             </div>
             <div class="row">
-                
+
                 <div class="col-12">
-                    <p>{{__('our_story.sample')}}<br>{{__('our_story.sample')}}</p>
-                    <p>{{__('our_story.sample')}}</p>
+                    <p>{{__('our_story.paragraph1')}}</p>
+                    <p>{{__('our_story.paragraph2')}}</p>
+                    <p>{{__('our_story.paragraph3')}}</p>
                 </div>
-               
+
             </div>
         </div>
     </section>
-    
+
 @endsection
