@@ -84,11 +84,12 @@ footer{background-color: #272727; color: #fff;}
 /*ACCORDION*/
 .accordion-button,.accordion-item{background-color: transparent!important; color: #000!important;}
 .accordion-button,.accordion-item,.accordion-button:focus,.accordion-button:not(.collapsed),.accordion-collapse{border: none!important;box-shadow: none;}
-.accordion-button{padding: 5px 0 ;height: 60px; font: normal normal bold 30px/100px 'Nimbus Sans L';}
+.accordion-button{padding: 5px 0 ; font: normal normal bold 30px/50px 'Nimbus Sans L';}
 .accordion-body{padding: 0 20px;font: normal normal normal 30px/41px 'Nimbus Sans L';}
 .accordion-button::after,.accordion-button:not(.collapsed)::after{background-image: url('../assets/icons/flecha.svg');}
+
 @media (max-width: 991px){
-    .accordion-button{height: 50px; font-size: 25px;}
+    .accordion-button{font: normal normal bold 25px/50px 'Nimbus Sans L';}
     .accordion-body{padding: 0 16px;font-size: 18px;}
 }
 
