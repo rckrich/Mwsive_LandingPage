@@ -64,7 +64,7 @@
                         <img class="image w-100" src="{{asset('assets/img/IMG_surf.png')}}" />
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12 p-3 mx-auto text-left">
-                        <h1 class="text-light"><b>{{__('general.discoverability.title')}}<b></h1>
+                        <h1 class="text-light"><b>{{__('general.discoverability.title')}}</b></h1>
                         <p class="text-light">{{__('general.discoverability.p1')}}</p>
                         <p class="text-light">{{__('general.discoverability.p2')}}</p>
                     </div>
@@ -110,9 +110,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-11 mx-auto bb-light mb-5"></div>
         </div>
-
     </section>
 
 @endsection
