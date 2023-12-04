@@ -36,11 +36,14 @@ h3{font: normal normal normal 30px/41px 'Nimbus Sans L'; }
 h3 b{font-family: 'Nimbus Sans L bold';}
 .highlight{color: #8A75F6; font: italic normal bold 30px/40px 'Nimbus Sans L itallic';line-height: 50px;}
 p{font: normal normal normal 30px/80px 'Nimbus Sans L'; line-height: 50px;}
+#discoverability p {font-size: 23px; line-height: 50px;}
+
 @media (max-width: 1365px){
     h1{font-size: 50px;}
     h2{font-size: 35px;}
     h3{font-size: 25px;}
     p,.highlight{font-size: 25px;}
+    #discoverability p {font-size: 23px; line-height: 50px;}
 }
 @media (max-width: 991px){
     h1{font-size: 40px; line-height: 55px;}
@@ -109,10 +112,12 @@ footer{background-color: #272727; color: #fff;}
 /*discoverability*/
 #usage{margin-bottom: 10rem;}
 /*discoverability*/
-#discoverability .back_img{width: 100%;height: auto;object-fit: cover;object-position: center; z-index: 5 !important; position: absolute; margin-top: -5rem;}
-#discoverability .container {z-index: 6 !important;}
-#discoverability .content{ z-index: 7 !important; position: relative; display: inline;}
-#discoverability{background-color: #0A0A0A; padding-bottom: 5rem;}
+#discoverability .back_img{width: 100%; height: auto; object-fit: cover; object-position: center; z-index: 0 !important; position: absolute; margin-top: -5rem;}
+#discoverability .container,
+#discoverability .content,
+#discoverability .image {z-index: 6 !important;}
+#discoverability .content{ position: relative; display: inline;}
+#discoverability{ background-color: #0A0A0A; padding-bottom: 5rem; }
 @media (max-width: 991px){
     #discoverability{padding-bottom: 1rem;}
 }

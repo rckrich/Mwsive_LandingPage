@@ -15,16 +15,16 @@
             </div>
 
             <div class="col-12 p-3">
-                <img class="image-card w-100" src="{{asset('assets/img/characteristics_1@2x.png')}}" />
+                <img class="image-card w-100" src="{{asset('assets/img/characteristics_1.png')}}" />
             </div>
             <div class="col-12 col-lg-6 col-md-6 col-sm-12 p-3">
-                <img class="image-card w-100" src="{{asset('assets/img/characteristics_2@2x.png')}}" />
+                <img class="image-card w-100" src="{{asset('assets/img/characteristics_2.png')}}" />
             </div>
             <div class="col-12 col-lg-6 col-md-6 col-sm-12 p-3">
-                <img class="image-card w-100" src="{{asset('assets/img/characteristics_3@2x.png')}}" />
+                <img class="image-card w-100" src="{{asset('assets/img/characteristics_3.png')}}" />
             </div>
             <div class="col-12 p-3">
-                <img class="image-card w-100" src="{{asset('assets/img/characteristics_4@2x.png')}}" />
+                <img class="image-card w-100" src="{{asset('assets/img/characteristics_4.png')}}" />
             </div>
         </div>
     </section>
@@ -59,15 +59,14 @@
         <img class="back_img" src="{{asset('assets/img/discoverability.png')}}"/>
         <div class="container p-lg-5 p-md-5 p-sm-3 p-3">
             <div class="content row mx-auto p-5">
-                <div class="row col-10 mx-auto align-items-center">
+                <div class="row col-12 mx-auto align-items-center">
                     <div class="col-lg-4 col-md-12 col-sm-12 col-12 p-3 mx-auto">
-                        <img class="w-100" src="{{asset('assets/img/sample_mobile.png')}}" />
+                        <img class="image w-100" src="{{asset('assets/img/IMG_surf.png')}}" />
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12 col-12 p-3 mx-auto text-left">
                         <h1 class="text-light"><b>{{__('general.discoverability.title')}}<b></h1>
-                        <p class="text-light"><b class="highlight">{{__('general.discoverability.p0')}}</b>{{__('general.discoverability.p1')}}</p>
+                        <p class="text-light">{{__('general.discoverability.p1')}}</p>
                         <p class="text-light">{{__('general.discoverability.p2')}}</p>
-                        <p class="text-light">{{__('general.discoverability.p3')}}</p>
                     </div>
                 </div>
             </div>

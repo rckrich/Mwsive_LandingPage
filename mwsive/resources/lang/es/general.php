@@ -7,20 +7,18 @@ return [
     'nav_tc' => 'Términos y Condiciones',
     'characteristics' => [
         'title' => 'A MUSIC DISCOVERY APP',
-    ],    
+    ],
     'usage' => [
         'title' => 'How to use the APP?',
         'surf' => 'SURF',
         'pick' => 'PIK',
         'swipe' => 'SWIPE',
-    ], 
+    ],
     'discoverability' => [
         'title' => 'Discoverability',
-        'p0' => 'Discover',
-        'p1' => '- ability measures user\'s talent to predict music hits.',
-        'p2' => 'They compete for the highest curator rankings',
-        'p3' => 'Based on the chart performance of their piked songs',
-    ],    
+        'p1' => 'Alcanza el estatus de Gurú Musical y colabora directamente con tus artistas favoritos.',
+        'p2' => 'Solo los Gurús Musicales tienen el privilegio de ayudar a sus artistas favoritos a elegir sus próximos lanzamientos. Obtén acceso a unreleased music y participa en la selección de futuros hits.',
+    ],
     'activities' => [
         'a1_title' => 'Explore',
         'a1_text' => 'Connect through the music that\'s trending',
@@ -28,7 +26,7 @@ return [
         'a2_text' => 'Play with our curated list to be rewarded',
         'a3_title' => 'Share',
         'a3_text' => 'Share your music taste with the word.',
-    ],    
+    ],
     'social_media' => 'SOCIAL MEDIA',
 
 
