@@ -37,19 +37,19 @@
             <div class="col-lg-4 col-md-4 col-sm-12 col-12 py-lg-5 py-3 px-lg-0 px-md-0 px-sm-5 px-5 align-self-start mb-auto">
                 <div class="px-lg-5 px-3 pb-lg-5 pb-md-5 pb-3">
                     <h2 class="pb-3"><b>{{__('general.usage.surf')}}</b></h2>
-                    <img class="w-100 pb-lg-5 pb-md-5 pb-0" src="{{asset('assets/img/sample_mobile.png')}}" />
+                    <img class="w-100 pb-lg-5 pb-md-5 pb-0" src="{{asset('assets/img/SURF.gif')}}" />
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-12 py-lg-5 py-3 px-lg-0 px-md-0 px-sm-5 px-5 align-self-end mt-auto">
                 <div class="px-lg-5 px-3 pt-lg-5 pt-md-5 pt-3">
                     <h2 class="pb-3"><b>{{__('general.usage.pick')}}</b></h2>
-                    <img class="w-100" src="{{asset('assets/img/sample_mobile.png')}}" />
+                    <img class="w-100" src="{{asset('assets/img/PIK.gif')}}" />
                 </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 col-12 py-lg-5 py-3 px-lg-0 px-md-0 px-sm-5 px-5 align-self-start mb-auto">
                 <div class="px-lg-5 px-3 pb-lg-5 pb-md-5 pb-3">
                     <h2 class="pb-3"><b>{{__('general.usage.swipe')}}</b></h2>
-                    <img class="w-100 pb-lg-5 pb-md-5 pb-0" src="{{asset('assets/img/sample_mobile.png')}}" />
+                    <img class="w-100 pb-lg-5 pb-md-5 pb-0" src="{{asset('assets/img/SWIPE.gif')}}" />
                 </div>
             </div>
         </div>
