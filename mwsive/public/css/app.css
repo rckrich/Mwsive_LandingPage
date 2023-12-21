@@ -138,5 +138,6 @@ footer{background-color: #272727; color: #fff;}
     #activities .my-10rem{margin-top: 0rem; margin-bottom: 5rem;}
     #activities{min-height:min-content;}
 }
-/*faq our_story*/
-#faq,#our_story{background-color: #fff; color: #000;}
+/*faq our_story #links */
+#faq,#our_story, #links {background-color: #fff; color: #000;}
+#links .container { padding-bottom: 160px !important; }

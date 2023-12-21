@@ -3,7 +3,7 @@
 @extends('commons.base')
 
 @section('content')
-    <section id="our_story">
+    <section id="links">
     <div class="container p-5">
             <div class="row align-items-center pt-5">
                 <div class="col-12">
