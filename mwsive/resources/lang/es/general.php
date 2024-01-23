@@ -2,7 +2,7 @@
 
 return [
     'nav_index' => 'Home',
-    'nav_our_story' => 'Our Story',
+    'nav_our_story' => 'Nosotros',
     'nav_faq' => 'FAQ',
     'nav_tc' => 'Términos y Condiciones',
     'characteristics' => [

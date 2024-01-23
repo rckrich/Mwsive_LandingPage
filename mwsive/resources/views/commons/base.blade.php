@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="{{asset('css/app.css')}}" type="text/css" >
 
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </head>
@@ -41,7 +41,7 @@
                 <li id="nav_tc" class="nav-item px-3 {{ request()->routeIs('landing.tc') ? 'active' : '' }}">
                     <a class="nav-link" href="{{route('landing.tc')}}">{{__('general.nav_tc')}}</a>
                 </li>
-            </ul>            
+            </ul>
         </div>
     </nav>
     <div class="">
@@ -50,28 +50,20 @@
     <footer>
         <div class="container p-5">
             <div class="row align-items-center text-center py-5">
-                <div class="col-12 align-self-center">  
+                <div class="col-12 align-self-center">
                     <img class="my-3" src="{{asset('assets/img/Logo_Mwsive.svg')}}" width="264" height="45"/>
-                    <h3 class="pb-3 pt-5 text-gray">{{__('general.social_media')}}</h3> 
-                </div>                 
-                <div id="social_media_links" class="col-lg-9 row col-12 align-self-center mx-auto" style="">                    
+                    <h3 class="pb-3 pt-5 text-gray">{{__('general.social_media')}}</h3>
+                </div>
+                <div id="social_media_links" class="col-lg-9 row col-12 align-self-center mx-auto" style="">
                     <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://www.youtube.com/channel/UCvpzWzkB_tI9UXYl-kLJrGw">
                         <img class="icon-social" src="{{asset('assets/icons/youtube.svg')}}" height="50" width="50"/></a>
                     <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://www.tiktok.com/@mwsive">
                         <img class="icon-social" src="{{asset('assets/icons/tiktok.svg')}}" height="50" width="50"/></a>
                     <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://www.instagram.com/mwsive/?hl=en">
                         <img class="icon-social" src="{{asset('assets/icons/instagram.svg')}}" height="50" width="50"/></a>
-                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="">
-                        <img class="icon-social" src="{{asset('assets/icons/facebook.svg')}}" height="50" width="50"/></a>
-                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="">
-                        <img class="icon-social" src="{{asset('assets/icons/discord.svg')}}" height="50" width="50"/></a>
-                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="">
-                        <img class="icon-social" src="{{asset('assets/icons/snapchat.svg')}}" height="50" width="50"/></a>
                     <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://twitter.com/mwsive">
                         <img class="icon-social" src="{{asset('assets/icons/twitter.svg')}}" height="50" width="50"/></a>
-                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="">
-                        <img class="icon-social" src="{{asset('assets/icons/linkedin.svg')}}" height="50" width="50"/></a>
-                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="">
+                    <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://www.threads.net/@mwsive">
                         <img class="icon-social" src="{{asset('assets/icons/at.svg')}}" height="50" width="50"/></a>
 
                 </div>
@@ -79,6 +71,6 @@
         </div>
     </footer>
 
-    <script src="{{asset('js/app.js')}}"></script> 
+    <script src="{{asset('js/app.js')}}"></script>
 </body>
 </html>
