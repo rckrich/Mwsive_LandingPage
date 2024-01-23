@@ -90,7 +90,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-3 mx-auto">
                     <div class="card text-center h-100">
                         <div class="card-img mx-auto mt-5 p-3">
-                            <img class="mx-auto w-100" src="{{asset('assets/icons/Icon_Play.png')}}"/>
+                            <img class="mx-auto w-100" src="{{asset('assets/icons/Icon_surf.png')}}"/>
                         </div>
                         <div class="card-body mb-5">
                             <p class="card-title">{{__('general.activities.a2_title')}}</p>
@@ -101,7 +101,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12 p-3 mx-auto">
                     <div class="card text-center h-100">
                         <div class="card-img mx-auto mt-5 p-3">
-                            <img class="mx-auto w-100" src="{{asset('assets/icons/Icon_Share.png')}}"/>
+                            <img class="mx-auto w-100" src="{{asset('assets/icons/Icon_COMPITE.png')}}"/>
                         </div>
                         <div class="card-body mb-5">
                             <p class="card-title">{{__('general.activities.a3_title')}}</p>

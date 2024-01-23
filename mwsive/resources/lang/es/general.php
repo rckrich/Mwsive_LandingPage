@@ -6,10 +6,10 @@ return [
     'nav_faq' => 'FAQ',
     'nav_tc' => 'Términos y Condiciones',
     'characteristics' => [
-        'title' => 'A MUSIC DISCOVERY APP',
+        'title' => 'Más que una app; la comunidad que define los próximos éxitos musicales.',
     ],
     'usage' => [
-        'title' => 'How to use the APP?',
+        'title' => '¿Cómo utilizar la app?',
         'surf' => 'SURF',
         'pick' => 'PIK',
         'swipe' => 'SWIPE',
@@ -20,12 +20,12 @@ return [
         'p2' => 'Solo los Gurús Musicales tienen el privilegio de ayudar a sus artistas favoritos a elegir sus próximos lanzamientos. Obtén acceso a unreleased music y participa en la selección de futuros hits.',
     ],
     'activities' => [
-        'a1_title' => 'Explore',
-        'a1_text' => 'Connect through the music that\'s trending',
-        'a2_title' => 'Play',
-        'a2_text' => 'Play with our curated list to be rewarded',
-        'a3_title' => 'Share',
-        'a3_text' => 'Share your music taste with the word.',
+        'a1_title' => 'EXPLORA',
+        'a1_text' => 'Sumérgete en nuevas tendencias y demuestra tu habilidad para anticipar hits.',
+        'a2_title' => 'SURFEA',
+        'a2_text' => 'Surfea entre canciones, crea playlists al instante y selecciona la canción que se convertirá en la próxima gran ola.',
+        'a3_title' => 'COMPITE',
+        'a3_text' => 'Conoce tu posición en el Rankeo. Colócate en el primer lugar de la élite musical.',
     ],
     'social_media' => 'SOCIAL MEDIA',
 
