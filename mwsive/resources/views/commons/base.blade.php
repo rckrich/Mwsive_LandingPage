@@ -54,7 +54,7 @@
                     <img class="my-3" src="{{asset('assets/img/Logo_Mwsive.svg')}}" width="264" height="45"/>
                     <h3 class="pb-3 pt-5 text-gray">{{__('general.social_media')}}</h3>
                 </div>
-                <div id="social_media_links" class="col-lg-9 row col-12 align-self-center mx-auto" style="">
+                <div id="social_media_links" class="col-lg-9 col-12 justify-content-center mx-auto" style="">
                     <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://www.youtube.com/channel/UCvpzWzkB_tI9UXYl-kLJrGw">
                         <img class="icon-social" src="{{asset('assets/icons/youtube.svg')}}" height="50" width="50"/></a>
                     <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://www.tiktok.com/@mwsive">
@@ -65,7 +65,6 @@
                         <img class="icon-social" src="{{asset('assets/icons/twitter.svg')}}" height="50" width="50"/></a>
                     <a class="px-3 my-3 col-lg-auto col-md-2 col-sm-3 col-3" href="https://www.threads.net/@mwsive">
                         <img class="icon-social" src="{{asset('assets/icons/at.svg')}}" height="50" width="50"/></a>
-
                 </div>
             </div>
         </div>
